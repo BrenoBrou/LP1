@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void){
+    char alunos[50];
+    int soma=0, media=0, acima=0, i;
+    for (i=1;i<=50;i++){
+    printf ("Entre com a nota do aluno:");
+    scanf ("%hhi", &alunos[i]);
+    soma=soma + alunos[i];
+}
+    media=soma/50;
+    for (i=1;i<=50;i++){
+    if (alunos[i]>media){
+    acima=acima+1;
+}
+}
+    printf ("%d\n", media),("%d\n", acima);
+return 0;
+}
