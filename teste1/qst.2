@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(void){
+    int a, b, c, k, i;
+    printf ("Escolha um número: ");
+    scanf ("%d", &a);
+    printf ("Escolha um número: ");
+    scanf ("%d", &b);
+    if (a>b){
+    c=a;
+}
+    else{
+    c=b;
+}
+    for (i=0;i<=c;i++){
+    k=c-i;
+    if (k%2==0){
+    printf ("%d\n", k);
+}
+}
+return 0;
+}
